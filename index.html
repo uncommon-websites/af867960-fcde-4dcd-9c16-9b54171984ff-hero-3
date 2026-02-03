@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dezerv Hero Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F4F4F4;
+            color: #111;
+        }
+        
+        .hero-text {
+            font-weight: 300; /* Light */
+            line-height: 0.9;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-6 w-full">
+        <!-- Logo -->
+        <div class="mb-4 md:mb-0">
+            <a href="#" class="text-3xl font-semibold tracking-tight uppercase flex items-center gap-1">
+                <span class="font-bold">DEZERV</span>
+            </a>
+        </div>
+
+        <!-- Center Links -->
+        <div class="hidden md:flex gap-8 text-xs font-medium tracking-wide text-gray-800">
+            <a href="#" class="hover:text-black transition-colors">PORTFOLIO</a>
+            <a href="#" class="hover:text-black transition-colors">STRATEGY</a>
+            <a href="#" class="hover:text-black transition-colors">PARTNERS</a>
+            <a href="#" class="hover:text-black transition-colors">ADVISORY</a>
+            <a href="#" class="hover:text-black transition-colors">INSIGHTS</a>
+        </div>
+
+        <!-- Right Actions -->
+        <div class="flex gap-8 text-xs font-medium tracking-wide">
+            <a href="#" class="flex items-center gap-2 hover:opacity-70 transition-opacity">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 7l10 0l0 10"></path>
+                </svg>
+                INVEST NOW
+            </a>
+            <a href="#" class="flex items-center gap-2 hover:opacity-70 transition-opacity">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 7l10 0l0 10"></path>
+                </svg>
+                GET STARTED
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Top Section: Text -->
+        <div class="px-6 md:px-12 pt-20 pb-12 md:pt-32 md:pb-16 flex flex-col md:flex-row justify-between items-end">
+            
+            <!-- Left Paragraph -->
+            <div class="max-w-xs mb-10 md:mb-2">
+                <p class="text-xs font-medium leading-relaxed uppercase tracking-wide text-black">
+                    At Dezerv, we deliver<br>
+                    personalized wealth management<br>
+                    via data-driven automation and<br>
+                    dedicated client partners.
+                </p>
+            </div>
+
+            <!-- Right Heading -->
+            <div class="text-right">
+                <h1 class="hero-text text-6xl md:text-8xl lg:text-[9rem] tracking-tight">
+                    <span class="block">WHERE</span>
+                    <span class="block">WEALTH</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- Image Strip -->
+        <div class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 h-[400px] md:h-[500px] lg:h-[600px]">
+            <!-- Image 1: Abstract/Dark -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/af867960-fcde-4dcd-9c16-9b54171984ff/hero-3-img-1-1770107619028.png" alt="Abstract Texture" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+            
+            <!-- Image 2: Hands -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/af867960-fcde-4dcd-9c16-9b54171984ff/hero-3-img-2-1770107619791.png" alt="Hands Art" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 3: Silhouette -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://placehold.co/600x900/dbeafe/1e40af?text=Silhouette" alt="Silhouette Figure" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 4: Portrait Yellow -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://placehold.co/600x900/78716c/d6d3d1?text=Portrait" alt="Portrait in Yellow" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 5: Mirror Red -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://placehold.co/600x900/b91c1c/fecaca?text=Mirror" alt="Mirror Reflection" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 6: Interior Orange -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://placehold.co/600x900/a16207/fde047?text=Interior" alt="Interior Scene" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+        </div>
+
+        <!-- Bottom Text -->
+        <div class="px-6 md:px-12 pt-4 pb-20 text-right">
+            <h1 class="hero-text text-6xl md:text-8xl lg:text-[9rem] tracking-tight">
+                EVOLVES
+            </h1>
+        </div>
+    </main>
+
+</body>
+</html>
